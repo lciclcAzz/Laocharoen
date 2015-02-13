@@ -1,0 +1,483 @@
+/* Created by Artisteer v4.1.0.59861 */
+
+.responsive body
+{
+   min-width: 240px;
+}
+  
+.responsive .idx-content-layout img,
+.responsive .idx-content-layout video
+{
+   max-width: 100%;
+   height: auto !important;
+}
+
+.responsive.responsive-phone .idx-content-layout img 
+{
+   float: none !important;
+}
+    
+.responsive .idx-content-layout .idx-sidebar0, 
+.responsive .idx-content-layout .idx-sidebar1, 
+.responsive .idx-content-layout .idx-sidebar2 
+{
+   width: auto !important;
+}
+    
+.responsive .idx-content-layout, 
+.responsive .idx-content-layout-row, 
+.responsive .idx-layout-cell 
+{
+   display: block;
+}
+    
+.responsive .image-caption-wrapper 
+{
+   width: auto;
+}
+
+.responsive.responsive-tablet .idx-vmenublock,
+.responsive.responsive-tablet .idx-block
+{
+   margin-left: 1%;
+   margin-right: 1%;
+   width: 48%;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.responsive .idx-responsive-embed 
+{
+   position: relative;
+   padding-bottom: 56.25%;
+   /* 16:9 */
+	height: 0;
+}
+
+.responsive .idx-responsive-embed iframe,
+.responsive .idx-responsive-embed object,
+.responsive .idx-responsive-embed embed
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.responsive .idx-header 
+{
+   width: auto;
+   height: auto;
+   min-height: 100px;
+   min-width: 1%;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+.responsive .idx-header .idx-headline, 
+.responsive .idx-header .idx-slogan 
+{
+   display: block !important;
+   top: 0 !important;
+   left: 0 !important;
+   margin: 2% !important;
+}
+    
+.responsive .idx-header .idx-headline a, 
+.responsive .idx-header .idx-slogan 
+{
+   white-space: normal !important;
+}
+  
+.responsive .idx-header *
+{
+   position: relative;
+   text-align: center;
+   -webkit-transform: none !important;
+   -moz-transform: none !important;
+   -o-transform: none !important;
+   -ms-transform: none !important;
+   transform: none !important;
+}
+
+.responsive .idx-header #idx-flash-area,
+.responsive .idx-header .idx-shapes>*
+{
+   display: none;
+}
+
+.responsive #idx-header-bg 
+{
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+/* Search and other elements in header element directly */
+.responsive .idx-header>.idx-textblock
+{
+   position: relative !important;
+   display: block !important;
+   margin: 1% auto !important;
+   width: 75% !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+}
+
+/* For icons like facebook, rss, etc. */
+.responsive .idx-header>.idx-textblock>div 
+{
+   width: 100%;
+}
+/* dynamic width nav */
+.idx-nav .idx-menu-btn 
+{
+   border: 1px solid #404040;
+   border-radius: 3px;
+   box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+   display: none;
+   background: -ms-linear-gradient(top, #707070 0, #000 100%);
+   background: -moz-linear-gradient(top, #707070 0, #000 100%);
+   background: -o-linear-gradient(top, #707070 0, #000 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #707070), color-stop(1, #000));
+   background: -webkit-linear-gradient(top, #707070 0, #000 100%);
+   background: linear-gradient(to bottom, #707070 0, #000 100%);
+   margin: 3px;
+   padding: 5px;
+   position: relative;
+   width: 20px;
+}
+
+.idx-nav .idx-menu-btn span 
+{
+   background: #E0E0E0;
+   border-radius: 2px;
+   display: block;
+   height: 3px;
+   margin: 3px 1px;
+   position: relative;
+   -moz-transition: background .2s;
+   -o-transition: background .2s;
+   -webkit-transition: background .2s;
+   transition: background .2s;
+}
+
+.idx-nav .idx-menu-btn:hover span
+{
+   background: #f3f3f3;
+}
+
+.responsive .idx-nav .idx-menu-btn 
+{
+   display: inline-block;
+}
+
+.responsive nav.idx-nav,
+.responsive .idx-nav-inner
+{
+   width: auto !important;
+   position: relative !important;
+   top: auto !important;
+   left: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   margin-top: 0;
+   margin-bottom: 0;
+   min-width: 0;
+   text-align: left !important;
+}
+
+.responsive nav.idx-nav
+{
+   min-width: 1%;
+   margin-top: 1%;
+}
+
+.responsive .idx-nav 
+{
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 3px;
+   padding-bottom: 3px;
+}
+ 
+/* full width hmenu, instead of inline-block */
+.responsive .idx-nav ul.idx-hmenu 
+{
+   display: none;
+   float: none;
+   text-align: center;
+}
+
+.responsive .idx-nav .idx-hmenu.visible 
+{
+   display: block;
+}
+
+/* elements on different lines */
+.responsive .idx-nav ul.idx-hmenu li,
+.idx-hmenu-extra1,
+.idx-hmenu-extra2
+{
+   float: none;
+}
+  
+/* horizontal margins */
+.responsive .idx-nav ul.idx-hmenu>li:first-child, 
+.responsive .idx-nav ul.idx-hmenu>li:last-child, 
+.responsive .idx-nav ul.idx-hmenu>li
+{
+   margin-left: 0;
+   margin-right: 0;
+}
+ 
+/* separator */ 
+.responsive .idx-nav ul.idx-hmenu>li:before
+{
+   display: none;
+}
+
+/* vertical distance between items */
+.responsive .idx-nav ul.idx-hmenu a
+{
+   margin-top: 1px !important;
+   margin-bottom: 1px !important;
+   height: auto;
+   white-space: normal;
+}
+
+.responsive .idx-nav ul.idx-hmenu>li:first-child>a
+{
+   margin-top: 0 !important;
+}
+
+.responsive .idx-nav ul.idx-hmenu>li:last-child>a
+{
+   margin-bottom: 0 !important;
+}
+
+/* fixes for extended menu */
+.responsive .idx-nav .ext, 
+.responsive .idx-nav ul.idx-hmenu>li>ul, 
+.responsive .idx-nav ul.idx-hmenu>li>ul>li,
+.responsive .idx-nav ul.idx-hmenu>li>ul>li a
+{
+   width: auto !important;
+}
+
+/* submenu position on hover */
+.responsive .idx-nav ul.idx-hmenu ul
+{
+   left: auto !important;
+   right: auto !important;
+   top: auto !important;
+   bottom: auto !important;
+   display: none !important;
+   position: relative !important;
+   visibility: visible !important;
+}
+
+.responsive .idx-nav ul.idx-hmenu li.active>ul
+{
+   display: block !important;
+}
+.responsive .idx-nav ul.idx-hmenu ul li.active>a
+{
+   font-weight: bold;
+}
+
+.responsive .idx-nav ul.idx-hmenu>li>a
+{
+   border-bottom: 1px solid #E0E0E0;
+   padding-bottom: 0 !important;
+   margin-bottom: 0 !important;
+}
+
+.responsive .idx-nav .idx-hmenu>li>a
+{
+   border-radius: 3px;
+}
+
+.responsive .idx-nav ul.idx-hmenu>li>a.active
+{
+   border-bottom: 1px solid #B5B5B5;
+}
+
+.responsive .idx-nav ul.idx-hmenu>li>a:hover
+{
+   border-bottom: 1px solid #9EC8EA;
+}
+
+.responsive .idx-nav ul.idx-hmenu>li>ul>li:first-child:after 
+{
+   display: none;
+}
+.responsive .idx-nav ul.idx-hmenu ul a
+{
+   padding-left: 4% !important;
+}
+.responsive .idx-nav ul.idx-hmenu ul ul a
+{
+   padding-left: 6% !important;
+}
+.responsive .idx-nav ul.idx-hmenu ul ul ul a
+{
+   padding-left: 8% !important;
+}
+.responsive .idx-nav ul.idx-hmenu ul ul ul ul a
+{
+   padding-left: 10% !important;
+}
+.responsive .idx-nav ul.idx-hmenu ul ul ul ul ul a
+{
+   padding-left: 12% !important;
+}
+  
+.responsive .idx-nav ul.idx-hmenu>li>ul
+{
+   padding: 1px;
+}
+  
+.responsive .idx-nav ul.idx-hmenu>li>ul:before
+{
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+.responsive .idx-sheet
+{
+   width: auto !important;
+   min-width: 240px !important;
+   max-width: none;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+}
+
+#idx-resp {
+   display: none;
+}
+
+@media all and (max-width: 768px)
+{
+    #idx-resp, #idx-resp-t { display: block; }
+    #idx-resp-m { display: none; }
+}
+
+@media all and (max-width: 480px)
+{
+    #idx-resp, #idx-resp-m { display: block; }
+    #idx-resp-t { display: none; }
+}
+
+.responsive .idx-content-layout, 
+.responsive .idx-content-layout-row, 
+.responsive .idx-layout-cell 
+{
+   display: block;
+}
+
+.responsive .idx-layout-cell 
+{
+   width: auto !important;
+   height: auto !important;
+   border-right-width: 0 !important;
+   border-left-width: 0 !important;
+   border-radius: 0 !important;
+}
+
+.responsive .idx-content-layout:after, 
+.responsive .idx-content-layout-row:after, 
+.responsive .idx-layout-cell:after 
+{
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
+
+.responsive ul.idx-vmenu>li>ul
+{
+   padding: 0;
+   display: none;
+}
+
+.responsive ul.idx-vmenu>li>ul:before
+{
+   display: block;
+   position: absolute;
+   content: ' ';
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+.responsive ul.idx-vmenu>li>ul.vmenu-resp-popup-visible 
+{
+   display: block;
+}
+
+.responsive ul.idx-vmenu ul {
+   position: relative;
+   left: auto;
+   top: auto;
+   visibility: visible;
+}
+
+.responsive ul.idx-vmenu ul ul a 
+{
+   padding-left: 48px;
+}
+
+.responsive ul.idx-vmenu ul ul ul a 
+{
+   padding-left: 72px;
+}
+
+.responsive ul.idx-vmenu ul ul ul ul a 
+{
+   padding-left: 96px;
+}
+
+.responsive ul.idx-vmenu ul ul ul ul ul a 
+{
+   padding-left: 120px;
+}
+
+.responsive .idx-post
+{
+   border-radius: 0;
+}
+
+.responsive .idx-footer-inner
+{
+   width: auto;
+   padding: 2% !important;
+   min-width: 0;
+}
+
+.responsive .idx-footer
+{
+   margin-top: 1%;
+}
+
+.responsive .responsive-tablet-layout-cell 
+{
+   width: 50% !important;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+

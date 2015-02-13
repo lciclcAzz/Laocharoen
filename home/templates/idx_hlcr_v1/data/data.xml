@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <categories>
+        <category id="1" title="Featured"/>
+        <category id="2" title="Articles"/>
+    </categories>
+    <articles>
+        <article id="1" category="2" title="Contact Us" alias="article" path="/home" description="" keywords="">
+            <![CDATA[<script>
+/*Artisteer scripts*/
+jQuery(function($) {
+    'use strict';
+    if ($.fn.slider) {
+        $(".idx-slidecontainer70_thumb1").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".idx-slider-inner", slideContainer);
+            var helper = null;
+
+            if ($.support.transition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".idx-slide-item", inner).first().css($.support.transition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+            }
+
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.slider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".idx-slidenavigator70_thumb1"),
+                helper: helper                
+            });
+        });
+    }
+});
+</script><script>document.write('<style>.idx-slidecontainer70_thumb1 {    position: relative;        width: 979px;    height: 368px;        }.idx-slidecontainer70_thumb1 .idx-slide-item{}.idx-slidecontainer70_thumb1 .idx-slide-item {    -webkit-transition: 600ms ease-in-out opacity;    -moz-transition: 600ms ease-in-out opacity;    -ms-transition: 600ms ease-in-out opacity;    -o-transition: 600ms ease-in-out opacity;    transition: 600ms ease-in-out opacity;    position: absolute;    display: none;	left: 0;	top: 0;	opacity: 0;    width:  100%;    height: 100%;}.idx-slidecontainer70_thumb1 .active, .idx-slidecontainer70_thumb1 .next, .idx-slidecontainer70_thumb1 .prev {    display: block;}.idx-slidecontainer70_thumb1 .active {    opacity: 1;}.idx-slidecontainer70_thumb1 .next, .idx-slidecontainer70_thumb1 .prev {    width: 100%;}.idx-slidecontainer70_thumb1 .next.forward, .idx-slidecontainer70_thumb1 .prev.back {    opacity: 1;}.idx-slidecontainer70_thumb1 .active.forward {    opacity: 0;}.idx-slidecontainer70_thumb1 .active.back {    opacity: 0;}.idx-slide70_thumb10 {    background-image:  url(\'images/template-content/slide70_thumb10.jpg\');        background-size:  100%;        background-position:  center top;    background-repeat: no-repeat;}.idx-slide70_thumb11 {    background-image:  url(\'images/template-content/slide70_thumb11.jpg\');        background-size:  100%;        background-position:  center top;    background-repeat: no-repeat;}.idx-slide70_thumb12 {    background-image:  url(\'images/template-content/slide70_thumb12.jpg\');        background-size:  100%;        background-position:  center top;    background-repeat: no-repeat;}.idx-slide70_thumb13 {    background-image:  url(\'images/template-content/slide70_thumb13.jpg\');        background-size:  100%;        background-position:  center top;    background-repeat: no-repeat;}.idx-slide70_thumb14 {    background-image:  url(\'images/template-content/slide70_thumb14.jpg\');        background-size:  100%;        background-position:  center top;    background-repeat: no-repeat;}.idx-slide70_thumb15 {    background-image:  url(\'images/template-content/slide70_thumb15.jpg\');        background-size:  100%;        background-position:  center top;    background-repeat: no-repeat;}.idx-slide70_thumb16 {    background-image:  url(\'images/template-content/slide70_thumb16.jpg\');        background-size:  100%;        background-position:  center top;    background-repeat: no-repeat;}.idx-slidenavigator70_thumb1 {  display: inline-block;  position: absolute;  direction: ltr !important;  top: 344px;  left: 85.29%;  z-index: 101;  line-height: 0 !important;  -webkit-background-origin: border !important;  -moz-background-origin: border !important;  background-origin: border-box !important;  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;  text-align: center;    white-space: nowrap;    }.idx-slidenavigator70_thumb1{background: #C7C7C7;background: linear-gradient(top, rgba(240, 240, 240, 0.6) 0, rgba(158, 158, 158, 0.6) 100%) no-repeat;background: -webkit-linear-gradient(top, rgba(240, 240, 240, 0.6) 0, rgba(158, 158, 158, 0.6) 100%) no-repeat;background: -moz-linear-gradient(top, rgba(240, 240, 240, 0.6) 0, rgba(158, 158, 158, 0.6) 100%) no-repeat;background: -o-linear-gradient(top, rgba(240, 240, 240, 0.6) 0, rgba(158, 158, 158, 0.6) 100%) no-repeat;background: -ms-linear-gradient(top, rgba(240, 240, 240, 0.6) 0, rgba(158, 158, 158, 0.6) 100%) no-repeat;background: linear-gradient(top, rgba(240, 240, 240, 0.6) 0, rgba(158, 158, 158, 0.6) 100%) no-repeat;-svg-background: linear-gradient(top, rgba(240, 240, 240, 0.6) 0, rgba(158, 158, 158, 0.6) 100%) no-repeat;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;padding:7px;}.idx-slidenavigator70_thumb1 > a{background: #949494;background: #949494;background: #949494;background: #949494;background: #949494;background: #949494;background: #949494;-svg-background: #949494;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;margin:0 10px 0 0;width: 10px;height: 10px;}.idx-slidenavigator70_thumb1 > a.active{background: #7A7A7A;background: #7A7A7A;background: #7A7A7A;background: #7A7A7A;background: #7A7A7A;background: #7A7A7A;background: #7A7A7A;-svg-background: #7A7A7A;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;margin:0 10px 0 0;width: 10px;height: 10px;}.idx-slidenavigator70_thumb1 > a:hover{background: #474747;background: #474747;background: #474747;background: #474747;background: #474747;background: #474747;background: #474747;-svg-background: #474747;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;margin:0 10px 0 0;width: 10px;height: 10px;}</style>');</script><div class="idx-content-layout" style="border-style:Dotted;border-width:0px;border-top-color:#A6A6A6;border-right-color:#A6A6A6;border-bottom-color:#A6A6A6;border-left-color:#A6A6A6;  border-collapse: separate; ">
+    <div class="idx-content-layout-row">
+    <div class="idx-layout-cell" style="padding: 3px; vertical-align: middle; width:100%" >
+        <p></p><div id="70_thumb1" style="position: relative; display: inline-block; z-index: 0; margin: 0px;  border-width: 0px;  " class="idx-collage">
+<div class="idx-slider idx-slidecontainer70_thumb1" data-width="979" data-height="368">
+    <div class="idx-slider-inner">
+<div class="idx-slide-item idx-slide70_thumb10">
+
+</div>
+<div class="idx-slide-item idx-slide70_thumb11">
+
+</div>
+<div class="idx-slide-item idx-slide70_thumb12">
+
+</div>
+<div class="idx-slide-item idx-slide70_thumb13">
+
+</div>
+<div class="idx-slide-item idx-slide70_thumb14">
+
+</div>
+<div class="idx-slide-item idx-slide70_thumb15">
+
+</div>
+<div class="idx-slide-item idx-slide70_thumb16">
+
+</div>
+
+    </div>
+</div>
+<div class="idx-slidenavigator idx-slidenavigator70_thumb1" data-left="85.29">
+<a href="#" class="idx-slidenavigatoritem">&nbsp;</a><a href="#" class="idx-slidenavigatoritem">&nbsp;</a><a href="#" class="idx-slidenavigatoritem">&nbsp;</a><a href="#" class="idx-slidenavigatoritem">&nbsp;</a><a href="#" class="idx-slidenavigatoritem">&nbsp;</a><a href="#" class="idx-slidenavigatoritem">&nbsp;</a><a href="#" class="idx-slidenavigatoritem">&nbsp;</a>
+</div>
+
+
+
+    </div>
+
+    </div>
+    </div>
+</div>
+<div class="idx-content-layout">
+    <div class="idx-content-layout-row">
+    <div class="idx-layout-cell" style="padding-top: 20px;padding-right: 20px;padding-bottom: 0px;padding-left: 20px; width:25%" >
+        <h3>Latest News</h3>
+        <hr style="border:none;background-color:#cccccc;color:#cccccc;height:1px;">
+        <h4>03/15/11</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">&nbsp;More...</a></p>
+        <h4>02/21/11</h4>
+        <p>Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis. <a href="#">More...</a></p>
+        <h4>01/15/11</h4>
+        <p>Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis. <a href="#">More...</a></p>
+    </div><div class="idx-layout-cell" style="padding-top: 20px;padding-right: 20px;padding-bottom: 0px;padding-left: 20px; width:75%" >
+        <h1>สารจากผู้บริหาร Laocharoen</h1>
+        <hr style="border:none;background-color:#cccccc;color:#cccccc;height:1px;">
+        <p><img width="224" height="212" alt="" src="images/template-content/shutterstock_28649449.jpg" style="float: left; margin-right: 10px;" class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus. Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id.</p>
+        <p>Duis placerat justo eu nunc interdum ultrices. Phasellus elit dolor, porttitor id consectetur sit amet, posuere id magna.</p>
+        <p>ทดสอบภาษาไทย การจะทำสิ่งใดต้องมีมานะอดทน พยายามเพื่อความสำเร็จ และเป้าหมาย a venenatis sed sit amet lectus. Morbi tristique posuere consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere. In hendrerit ligula ut diam imperdiet in fringilla diam suscipit.</p>
+        <p><a href="#">Read more...</a></p>
+    </div>
+    </div>
+</div>
+<div class="idx-content-layout">
+    <div class="idx-content-layout-row">
+    <div class="idx-layout-cell" style="padding: 20px; width:25%" >
+        <h3>Featured</h3>
+        <hr style="border:none;background-color:#cccccc;color:#cccccc;height:1px;">
+        <p style="text-align:center;"><img width="125" height="125" alt="" src="images/template-content/top3.png" class=""></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue.</p>
+        <p style="text-align:center;"><a href="#" class="idx-button">Read More</a></p>
+    </div><div class="idx-layout-cell" style="padding: 20px; width:25%" >
+        <h3>Services</h3>
+        <hr style="border:none;background-color:#cccccc;color:#cccccc;height:1px;">
+        <p style="text-align:center;"><img width="125" height="125" alt="" src="images/template-content/top1.png" class=""></p>
+        <p>Cras elit nisl, rhoncus nec iaculis ultricies. Etiam pharetra, tellus sit amet congue vulputate.</p>
+        <p style="text-align:center;"><a href="#" class="idx-button">Read More</a></p>
+    </div><div class="idx-layout-cell" style="padding: 20px; width:25%" >
+        <h3>Offers</h3>
+        <hr style="border:none;background-color:#C4D8E9;color:#C4D8E9;height:1px;">
+        <p style="text-align:center;"><img width="125" height="125" alt="" src="images/template-content/top2.png" class=""></p>
+        <p>Tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris.</p>
+        <p style="text-align:center;"><a href="#" class="idx-button">Read More</a></p>
+    </div><div class="idx-layout-cell" style="padding: 20px; width:25%" >
+        <h3>Contacts</h3>
+        <hr style="border:none;background-color:#C4D8E9;color:#C4D8E9;height:1px;">
+        <p style="text-align:center;"><img width="125" height="125" alt="" src="images/template-content/top4.png" class=""></p>
+        <p>Cras elit nisl, rhoncus nec iaculis ultricies. Etiam pharetra, tellus sit amet congue vulputate.</p>
+        <p style="text-align:center;"><a href="#" class="idx-button">Read More</a></p>
+    </div>
+    </div>
+</div>
+<div class="idx-content-layout">
+    <div class="idx-content-layout-row">
+    <div class="idx-layout-cell" style="padding: 20px; width:100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+        <article id="2" category="2" title="Contact Us" alias="article-1" path="/contact-us" description="" keywords="">
+            <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus. Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices.</p>
+
+<h3>Our Address</h3>
+
+<p>586 Main Ave, Building 42<br />
+Main City, Country 12345-6789</p>
+
+<p>T: (555) 123 - 4567<br />
+F: (555) 523 - 4567</p>
+
+<p>W: <a href="#">http://www.domain.com</a><br />
+E: <a href="#">myemail@domain.com</a></p>]]>
+        </article>
+        <article id="3" category="2" title="New Page" alias="article-2" path="/contact-us/new-page" description="" keywords="">
+            <![CDATA[<p><br/></p>]]>
+        </article>
+    </articles>
+    <menus>
+        <menu id="1" name="ct-horizontal-menu" title="Content / Horizontal Menu"/>
+        <menu id="2" name="ct-vertical-menu" title="Content / Vertical Menu"/>
+        <menu id="3" name="ct-special-menu" title="Content / Special Menu"/>
+    </menus>
+    <menuitems>
+        <menuitem id="1" menu="ct-horizontal-menu" title="Home" alias="ct-menu-item-1" path="/home" menutype="hmenu" type="single-article" article="1" showTitle="no" category="1" default="1"/>
+        <menuitem id="2" menu="ct-vertical-menu" title="Home" alias="ct-menu-item-2" path="/home" menutype="vmenu" type="single-article" article="1" showTitle="no" category="1"/>
+        <menuitem id="3" menu="ct-horizontal-menu" title="Contact Us" alias="ct-menu-item-3" path="/contact-us" menutype="hmenu" type="single-article" article="2" showTitle="yes" category="1"/>
+        <menuitem id="4" menu="ct-vertical-menu" title="Contact Us" alias="ct-menu-item-4" path="/contact-us" menutype="vmenu" type="single-article" article="2" showTitle="yes" category="1"/>
+        <menuitem id="5" menu="ct-horizontal-menu" title="New Page" alias="ct-menu-item-5" path="/contact-us/new-page" menutype="hmenu" type="single-article" parent="3" article="3" showTitle="yes" category="1"/>
+        <menuitem id="6" menu="ct-vertical-menu" title="New Page" alias="ct-menu-item-6" path="/contact-us/new-page" menutype="vmenu" type="single-article" parent="4" article="3" showTitle="yes" category="1"/>
+        <menuitem id="7" menu="ct-special-menu" title="Special Blog Page" alias="ct-menu-item-7" menutype="menu" type="category-blog-layout" category="1"/>
+        <menuitem id="8" menu="ct-special-menu" title="Special Single Page" alias="ct-menu-item-8" menutype="menu" type="single-article" showTitle="yes" category="1"/>
+    </menuitems>
+    <modules>
+        <module id="1" title="Content / Horizontal Menu" showTitle="true" position="position-1" type="menu" menu="ct-horizontal-menu"/>
+        <module id="2" title="เมนูหลัก" showTitle="true" position="position-23" style="idx-vmenu" menu="ct-vertical-menu" type="menu"/>
+        <module id="3" title="Footer" showTitle="false" position="position-27" type="custom">
+            <![CDATA[<div class="idx-content-layout">
+    <div class="idx-content-layout-row">
+    <div class="idx-layout-cell" style="width: 67%">
+        <p><br></p>
+    </div><div class="idx-layout-cell layout-item-0" style="width: 33%">
+        <p style="text-align: right;"><img width="100" height="108" alt="" class="idx-lightbox" src="images/template/HondaLCR_Logo_small.png"><br></p>
+        <p style="text-align: right;">Copyright © 2015-2016. All Rights Reserved.<br></p><p style="text-align: right;">Honda Laocharoen Yasothon.</p>
+    </div>
+    </div>
+</div>
+<div class="idx-content-layout">
+    <div class="idx-content-layout-row">
+    <div class="idx-layout-cell" style="width: 100%">
+        <p style="text-align: right;">
+         <font color="#2062A0">@lciclcAzz</font>
+         <a href="#"><img width="32" height="32" alt="" src="images/template/rss-017.png" class="">
+        </a> 
+         <a href="#"><img width="32" height="32" alt="" src="images/template/facebook-11.png" class="">
+        </a> 
+         <a href="#"><img width="32" height="32" alt="" src="images/template/twitter-09.png" class="">
+        </a> 
+        </p>
+    </div>
+    </div>
+</div>]]>
+        </module>
+    </modules>
+    <parameters/>
+</data>
